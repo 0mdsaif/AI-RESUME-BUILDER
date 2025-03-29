@@ -1,0 +1,492 @@
+/* Modern Theme - Clean, professional with blue accents */
+.theme-modern {
+  --theme-primary: #3b82f6;
+  --theme-secondary: #1d4ed8;
+  --theme-background: #ffffff;
+  --theme-text: #1f2937;
+}
+
+.theme-modern .resume-heading {
+  font-size: 2.5rem;
+  color: var(--theme-primary);
+  letter-spacing: -0.025em;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.theme-modern .section-title {
+  font-size: 1.25rem;
+  color: var(--theme-secondary);
+  border-bottom: 2px solid var(--theme-primary);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Minimal Theme - Ultra clean with subtle gray tones */
+.theme-minimal {
+  --theme-primary: #374151;
+  --theme-secondary: #9ca3af;
+  --theme-background: #ffffff;
+  --theme-text: #111827;
+}
+
+.theme-minimal .resume-heading {
+  font-size: 1.875rem;
+  color: var(--theme-primary);
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.theme-minimal .section-title {
+  font-size: 0.875rem;
+  color: var(--theme-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 1rem;
+  border-top: 1px solid var(--theme-secondary);
+  padding-top: 0.5rem;
+}
+
+/* Professional Theme - Traditional with navy and gold accents */
+.theme-professional {
+  --theme-primary: #1e3a8a;
+  --theme-secondary: #c7a957;
+  --theme-background: #f8fafc;
+  --theme-text: #1f2937;
+}
+
+.theme-professional .resume-heading {
+  font-size: 2.25rem;
+  color: var(--theme-primary);
+  font-weight: 700;
+  border-bottom: 3px double var(--theme-secondary);
+  padding-bottom: 1rem;
+}
+
+.theme-professional .section-title {
+  font-size: 1.5rem;
+  color: var(--theme-primary);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--theme-secondary);
+  font-family: "Georgia", serif;
+}
+
+/* Executive Theme - Bold and authoritative */
+.theme-executive {
+  --theme-primary: #000000;
+  --theme-secondary: #454545;
+  --theme-background: #ffffff;
+  --theme-text: #1f2937;
+}
+
+.theme-executive .resume-heading {
+  font-size: 2.5rem;
+  color: var(--theme-primary);
+  font-weight: 800;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.theme-executive .section-title {
+  font-size: 1.25rem;
+  color: var(--theme-primary);
+  font-weight: 700;
+  text-transform: uppercase;
+  border-left: 4px solid var(--theme-primary);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* Creative Theme - Vibrant with diagonal elements */
+.theme-creative {
+  --theme-primary: #7c3aed;
+  --theme-secondary: #ec4899;
+  --theme-background: #ffffff;
+  --theme-text: #1f2937;
+}
+
+.theme-creative .resume-heading {
+  font-size: 3rem;
+  background: linear-gradient(135deg, var(--theme-primary), var(--theme-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  transform: skew(-5deg);
+}
+
+.theme-creative .section-title {
+  font-size: 1.5rem;
+  color: var(--theme-primary);
+  margin-bottom: 1rem;
+  transform: skew(-5deg);
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, rgba(124, 58, 237, 0.1), rgba(236, 72, 153, 0.1));
+}
+
+/* Elegant Theme - Serif-based with classic styling */
+.theme-elegant {
+  --theme-primary: #334155;
+  --theme-secondary: #94a3b8;
+  --theme-background: #f8fafc;
+  --theme-text: #0f172a;
+}
+
+.theme-elegant .resume-heading {
+  font-size: 2.75rem;
+  color: var(--theme-primary);
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.theme-elegant .section-title {
+  font-size: 1.5rem;
+  color: var(--theme-secondary);
+  font-family: "Playfair Display", serif;
+  border-bottom: 1px solid var(--theme-secondary);
+  padding-bottom: 0.5rem;
+  margin: 2rem 0 1rem;
+}
+
+/* Tech Theme - Modern tech aesthetic with neon accents */
+.theme-tech {
+  --theme-primary: #00ff9d;
+  --theme-secondary: #00b8ff;
+  --theme-background: #0c1116;
+  --theme-text: #e2e8f0;
+}
+
+.theme-tech .resume-heading {
+  font-size: 2.25rem;
+  color: var(--theme-primary);
+  font-family: "Space Mono", monospace;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px var(--theme-primary);
+  letter-spacing: 0.2em;
+}
+
+.theme-tech .section-title {
+  font-size: 1.25rem;
+  color: var(--theme-secondary);
+  font-family: "Space Mono", monospace;
+  border-left: 2px solid var(--theme-secondary);
+  padding-left: 1rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px var(--theme-secondary);
+}
+
+/* Corporate Theme - Business professional with structured layout */
+.theme-corporate {
+  --theme-primary: #0f172a;
+  --theme-secondary: #475569;
+  --theme-background: #ffffff;
+  --theme-text: #1f2937;
+}
+
+.theme-corporate .resume-heading {
+  font-size: 2rem;
+  color: var(--theme-primary);
+  font-weight: 600;
+  padding: 1rem;
+  border: 2px solid var(--theme-primary);
+  text-align: center;
+}
+
+.theme-corporate .section-title {
+  font-size: 1.25rem;
+  background-color: var(--theme-primary);
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 1.5rem 0 1rem;
+}
+
+/* Compact Theme - Space-efficient design */
+.theme-compact {
+  --theme-primary: #047857;
+  --theme-secondary: #059669;
+  --theme-background: #ffffff;
+  --theme-text: #064e3b;
+}
+
+.theme-compact .resume-heading {
+  font-size: 1.5rem;
+  color: var(--theme-primary);
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  line-height: 1.2;
+}
+
+.theme-compact .section-title {
+  font-size: 0.875rem;
+  color: var(--theme-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 1rem 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px dotted var(--theme-primary);
+}
+
+/* Neon Theme */
+.theme-neon {
+  --theme-primary: #00ff9d;
+  --theme-secondary: #00b8ff;
+  --theme-background: #000000;
+  --theme-text: #ffffff;
+}
+
+.theme-neon .resume-heading {
+  font-size: 2.5rem;
+  color: var(--theme-primary);
+  text-shadow: 0 0 10px var(--theme-primary),
+               0 0 20px var(--theme-primary),
+               0 0 30px var(--theme-primary);
+}
+
+.theme-neon .section-title {
+  font-size: 1.5rem;
+  color: var(--theme-secondary);
+  text-shadow: 0 0 5px var(--theme-secondary);
+  border-bottom: 2px solid var(--theme-secondary);
+  padding-bottom: 0.5rem;
+}
+
+/* Gradient Theme */
+.theme-gradient {
+  --theme-primary: #FF416C;
+  --theme-secondary: #FF4B2B;
+  --theme-background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  --theme-text: #2D3436;
+}
+
+.theme-gradient .resume-heading {
+  font-size: 2.25rem;
+  background: linear-gradient(to right, var(--theme-primary), var(--theme-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.theme-gradient .section-title {
+  font-size: 1.25rem;
+  color: var(--theme-primary);
+  border-left: 4px solid;
+  border-image: linear-gradient(to bottom, var(--theme-primary), var(--theme-secondary)) 1;
+  padding-left: 1rem;
+}
+
+/* Nordic Theme */
+.theme-nordic {
+  --theme-primary: #81A1C1;
+  --theme-secondary: #88C0D0;
+  --theme-background: #2E3440;
+  --theme-text: #ECEFF4;
+}
+
+.theme-nordic .resume-heading {
+  font-size: 2rem;
+  color: var(--theme-primary);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.theme-nordic .section-title {
+  font-size: 1.25rem;
+  color: var(--theme-secondary);
+  border-bottom: 2px solid #5E81AC;
+  padding-bottom: 0.5rem;
+}
+
+/* Luxury Theme */
+.theme-luxury {
+  --theme-primary: #FFD700;
+  --theme-secondary: #B8860B;
+  --theme-background: #1C1C1C;
+  --theme-text: #D4AF37;
+}
+
+.theme-luxury .resume-heading {
+  font-size: 2.5rem;
+  color: var(--theme-primary);
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.theme-luxury .section-title {
+  font-size: 1.5rem;
+  color: var(--theme-secondary);
+  font-family: 'Playfair Display', serif;
+  border-bottom: 2px solid var(--theme-primary);
+  padding-bottom: 0.5rem;
+}
+
+/* Modern Plus Theme */
+.theme-modern-plus {
+  --theme-primary: #2563eb;
+  --theme-secondary: #7c3aed;
+  --theme-background: #f8fafc;
+  --theme-text: #1e293b;
+}
+
+.theme-modern-plus .resume-heading {
+  font-size: 2.75rem;
+  font-weight: 800;
+  background: linear-gradient(135deg, var(--theme-primary), var(--theme-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
+}
+
+.theme-modern-plus .section-title {
+  font-size: 1.25rem;
+  color: var(--theme-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 2px solid var(--theme-secondary);
+  padding-bottom: 0.5rem;
+}
+
+/* Business Theme */
+.theme-business {
+  --theme-primary: #0f172a;
+  --theme-secondary: #64748b;
+  --theme-background: #ffffff;
+  --theme-text: #334155;
+}
+
+.theme-business .resume-heading {
+  font-size: 2rem;
+  color: var(--theme-primary);
+  padding: 1rem 2rem;
+  border: 3px double var(--theme-secondary);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.theme-business .section-title {
+  font-size: 1.25rem;
+  color: var(--theme-primary);
+  border-left: 4px solid var(--theme-secondary);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+/* Minimalist Pro Theme */
+.theme-minimalist-pro {
+  --theme-primary: #525252;
+  --theme-secondary: #737373;
+  --theme-background: #fafafa;
+  --theme-text: #262626;
+}
+
+.theme-minimalist-pro .resume-heading {
+  font-size: 2.5rem;
+  color: var(--theme-primary);
+  font-weight: 200;
+  letter-spacing: -0.05em;
+  margin-bottom: 1.5rem;
+}
+
+.theme-minimalist-pro .section-title {
+  font-size: 0.875rem;
+  color: var(--theme-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  margin-bottom: 1rem;
+}
+
+/* Creative Pro Theme */
+.theme-creative-pro {
+  --theme-primary: #ec4899;
+  --theme-secondary: #8b5cf6;
+  --theme-background: #ffffff;
+  --theme-text: #18181b;
+}
+
+.theme-creative-pro .resume-heading {
+  font-size: 3rem;
+  background: linear-gradient(45deg, var(--theme-primary), var(--theme-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: skew(-5deg);
+  margin-bottom: 2rem;
+}
+
+.theme-creative-pro .section-title {
+  font-size: 1.5rem;
+  color: var(--theme-primary);
+  transform: skew(-5deg);
+  padding: 0.5rem 1.5rem;
+  background: linear-gradient(45deg, rgba(236, 72, 153, 0.1), rgba(139, 92, 246, 0.1));
+  border-radius: 0.5rem;
+}
+
+/* Vintage Theme - Warm, classic typography and soft colors */
+.theme-vintage {
+  --theme-primary: #b58900;
+  --theme-secondary: #cb4b16;
+  --theme-background: #fdf6e3;
+  --theme-text: #586e75;
+}
+.theme-vintage .resume-heading {
+  font-size: 2.5rem;
+  color: var(--theme-primary);
+  font-family: "Georgia", serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+.theme-vintage .section-title {
+  font-size: 1.25rem;
+  color: var(--theme-secondary);
+  border-bottom: 2px solid var(--theme-primary);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Futuristic Theme - Sleek with neon accents on a dark background */
+.theme-futuristic {
+  --theme-primary: #00ffd5;
+  --theme-secondary: #ff00f0;
+  --theme-background: #0b0c10;
+  --theme-text: #c5c6c7;
+}
+.theme-futuristic .resume-heading {
+  font-size: 2.5rem;
+  color: var(--theme-primary);
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.theme-futuristic .section-title {
+  font-size: 1.25rem;
+  color: var(--theme-secondary);
+  border-bottom: 2px solid var(--theme-secondary);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Theme content styles */
+[class^="theme-"] .content-section {
+  margin-bottom: 1.5rem;
+}
+
+[class^="theme-"] .skill-bar {
+  height: 0.5rem;
+  border-radius: 9999px;
+  background: var(--theme-secondary);
+  opacity: 0.2;
+}
+
+[class^="theme-"] .skill-progress {
+  height: 100%;
+  border-radius: 9999px;
+  background: var(--theme-primary);
+  transition: width 0.5s ease;
+}
