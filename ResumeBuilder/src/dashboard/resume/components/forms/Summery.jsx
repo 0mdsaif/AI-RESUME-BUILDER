@@ -93,7 +93,7 @@ const Summery = () => {
         // console.log('Data being sent:', data);
 
         try {
-            const response = await axios.put('http://localhost:3001/api/v1/resume', data);
+            const response = await axios.put('https://backendres-il7q.onrender.com/api/v1/resume', data);
             console.log(response);
             if (response.status !== 200) {
                 throw new Error('Failed to store data');
