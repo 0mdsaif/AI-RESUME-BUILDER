@@ -25,7 +25,7 @@ function EditResume() {
 
     const GetResumesInfo = () => {
       // console.log(resumeId)
-      axios.get(`http://localhost:3001/api/v1/resume?resumeid=${resumeId}`)
+      axios.get(`https://backendres-il7q.onrender.com/api/v1/resume?resumeid=${resumeId}`)
         .then(response => {
           // console.log(response.data.data[0]);
           setResumeInfo(response.data.data[0]);
