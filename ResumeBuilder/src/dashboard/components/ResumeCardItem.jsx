@@ -22,7 +22,7 @@ function ResumeCardItem({ resume, onDelete }) {
     setIsDeleting(true);
     
     try {
-      const response = await axios.delete(`http://localhost:3001/api/v1/resume/${resume.resumeid}`);
+      const response = await axios.delete(`https://backendres-il7q.onrender.com/api/v1/resume/${resume.resumeid}`);
       if (response.status === 200) {
         onDelete(resume.resumeid);
         setShowDeleteDialog(false);
