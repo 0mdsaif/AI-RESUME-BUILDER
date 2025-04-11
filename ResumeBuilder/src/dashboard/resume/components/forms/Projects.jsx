@@ -67,7 +67,7 @@ function Projects() {
         projects: projectsList
       }
 
-      const response = await axios.put('http://localhost:3001/api/v1/resume', data)
+      const response = await axios.put('https://backendres-il7q.onrender.com/api/v1/resume', data)
       if (response.status !== 200) throw new Error('Failed to update')
       
       toast.success("Projects updated successfully")
