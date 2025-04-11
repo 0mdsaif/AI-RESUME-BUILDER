@@ -40,7 +40,7 @@ const AddResume = () => {
     };
 
     try {
-      const response = await axios.post('http://localhost:3001/api/v1/resume', data);
+      const response = await axios.post('https://backendres-il7q.onrender.com/api/v1/resume', data);
       if (response.status !== 200) {
         throw new Error('Failed to store data');
       }
