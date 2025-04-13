@@ -18,7 +18,7 @@ const Dashboard = () => {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await axios.get(`http://localhost:3001/api/v1/resumes?userEmail=${userEmail}`);
+      const response = await axios.get(`https://backendres-il7q.onrender.com/api/v1/resumes?userEmail=${userEmail}`);
       setResumeList(response.data.data);
     } catch (error) {
       console.error('Error fetching data:', error);
